@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-common/cloud-common.iml" filepath="$PROJECT_DIR$/cloud-common/cloud-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-parent/cloud-parent.iml" filepath="$PROJECT_DIR$/cloud-parent/cloud-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-storage/cloud-storage.iml" filepath="$PROJECT_DIR$/cloud-storage/cloud-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-storage/cloud-storage-dao/cloud-storage-dao.iml" filepath="$PROJECT_DIR$/cloud-storage/cloud-storage-dao/cloud-storage-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-storage/cloud-storage-interface/cloud-storage-interface.iml" filepath="$PROJECT_DIR$/cloud-storage/cloud-storage-interface/cloud-storage-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-storage/cloud-storage-pojo/cloud-storage-pojo.iml" filepath="$PROJECT_DIR$/cloud-storage/cloud-storage-pojo/cloud-storage-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-storage/cloud-storage-service/cloud-storage-service.iml" filepath="$PROJECT_DIR$/cloud-storage/cloud-storage-service/cloud-storage-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-storage/cloud-storage-web/cloud-storage-web.iml" filepath="$PROJECT_DIR$/cloud-storage/cloud-storage-web/cloud-storage-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/cloudStorage.iml" filepath="$PROJECT_DIR$/.idea/cloudStorage.iml" />
+    </modules>
+  </component>
+</project>

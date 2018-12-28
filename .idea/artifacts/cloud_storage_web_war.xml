@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cloud-storage-web:war">
+    <output-path>$PROJECT_DIR$/cloud-storage/cloud-storage-web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>cloud-storage-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="cloud-storage-web-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="cloud-storage-web:war exploded" />
+    </root>
+  </artifact>
+</component>

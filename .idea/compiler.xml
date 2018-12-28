@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-common" />
+        <module name="cloud-parent" />
+        <module name="cloud-storage-service" />
+        <module name="cloud-storage-web" />
+      </profile>
+      <profile name="Annotation profile for cloud-storage-interface" enabled="true">
+        <sourceOutputDir name="../../cloud-storage-interface/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../cloud-storage-interface/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-storage-interface" />
+      </profile>
+      <profile name="Annotation profile for cloud-storage-dao" enabled="true">
+        <sourceOutputDir name="../../cloud-storage-dao/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../cloud-storage-dao/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-storage-dao" />
+      </profile>
+      <profile name="Annotation profile for A Camel Route" enabled="true">
+        <sourceOutputDir name="../../cloud-storage-pojo/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../cloud-storage-pojo/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-storage-pojo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-common" target="1.5" />
+      <module name="cloud-parent" target="1.5" />
+      <module name="cloud-storage" target="1.5" />
+      <module name="cloud-storage-dao" target="1.5" />
+      <module name="cloud-storage-interface" target="1.5" />
+      <module name="cloud-storage-pojo" target="1.8" />
+      <module name="cloud-storage-service" target="1.5" />
+      <module name="cloud-storage-web" target="1.5" />
+      <module name="cloudstorageinterface" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
