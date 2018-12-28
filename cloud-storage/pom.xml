@@ -4,14 +4,25 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>com.fenqing.cloud</groupId>
+        <artifactId>cloud-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
     <groupId>com.fenqing.cloud</groupId>
     <artifactId>cloud-storage</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
     <modules>
+        <module>cloud-storage-dao</module>
+        <module>cloud-storage-interface</module>
+        <module>cloud-storage-pojo</module>
         <module>cloud-storage-service</module>
         <module>cloud-storage-web</module>
     </modules>
+
 
 
 </project>
