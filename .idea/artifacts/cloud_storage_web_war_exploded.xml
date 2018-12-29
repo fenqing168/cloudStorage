@@ -22,6 +22,10 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.1.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.1.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:5.1.3.RELEASE" />
+          <element id="archive" name="cloud-common-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="cloud-common" />
+          </element>
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.6" />
         </element>
       </element>
       <element id="directory" name="META-INF">
