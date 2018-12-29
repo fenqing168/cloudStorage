@@ -40,10 +40,27 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
         </dependency>
+
+        <!--common-->
         <dependency>
             <groupId>com.fenqing.cloud</groupId>
             <artifactId>cloud-common</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <!--interface-->
+        <dependency>
+            <groupId>com.fenqing.cloud</groupId>
+            <artifactId>cloud-storage-interface</artifactId>
+            <version>${project.version}</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <!--service-->
+        <dependency>
+            <groupId>com.fenqing.cloud</groupId>
+            <artifactId>cloud-storage-service</artifactId>
+            <version>${project.version}</version>
             <scope>compile</scope>
         </dependency>
 

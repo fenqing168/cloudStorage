@@ -20,7 +20,7 @@
       <module name="cloud-storage" target="1.5" />
       <module name="cloud-storage-dao" target="1.5" />
       <module name="cloud-storage-interface" target="1.5" />
-      <module name="cloud-storage-pojo" target="1.8" />
+      <module name="cloud-storage-pojo" target="1.5" />
       <module name="cloud-storage-service" target="1.5" />
       <module name="cloud-storage-web" target="1.5" />
       <module name="cloudstorageinterface" target="1.5" />
